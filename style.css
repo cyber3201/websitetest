@@ -1,0 +1,75 @@
+:root {
+  --main-green: #006400;
+  --main-red: #b22222;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: var(--main-green);
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--main-red);
+}
+
+section {
+  padding: 2rem;
+}
+
+h2 {
+  color: var(--main-green);
+  border-bottom: 2px solid var(--main-red);
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background: var(--main-green);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border: 1px solid var(--main-green);
+}
+
+form button {
+  background: var(--main-red);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: var(--main-green);
+}
