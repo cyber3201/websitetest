@@ -1,0 +1,8 @@
+{
+  "name": "holistic-health-academy",
+  "version": "1.0.0",
+  "description": "Static site for the Holistic Health Academy",
+  "scripts": {
+    "test": "echo 'No tests'"
+  }
+}
