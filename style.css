@@ -21,6 +21,22 @@ header {
   transition: box-shadow 0.3s ease;
 }
 
+.logo {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto 0.5rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 header h1 {
   margin: 0;
   text-align: center;

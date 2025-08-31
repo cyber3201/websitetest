@@ -5,5 +5,6 @@ This repository contains a simple static website for the Holistic Health Academy
 ## Features
 - White background with centered titles for a clean look
 - Dynamic sticky header that gains a subtle shadow on scroll
+- Academy logo displayed prominently in the header
 - Professional footer with quick navigation links
 - Nature-themed image introducing the mission section
