@@ -51,10 +51,12 @@ nav a:hover {
 
 main {
   padding-top: 6rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 section {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .hero-image {
@@ -67,9 +69,18 @@ section {
 h2 {
   color: var(--main-green);
   border-bottom: 2px solid var(--main-red);
-  display: inline-block;
-  margin: 0 auto 1rem;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
   text-align: center;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 0.5rem;
 }
 
 footer {
